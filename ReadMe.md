@@ -4,6 +4,7 @@
 
 This is the source codes of **EVE (<u>E</u>ssential <u>V</u>ertices based <u>E</u>xamination)** method for hop-constrained s-t simple path graph (SPG) generation. To run the codes, please read the following instructions.
 
+<br/>
 
 
 ## 1 Prepare Datasets
@@ -22,11 +23,11 @@ Please copy your datasets into `Datasets`/.
 ...
 ```
 
-The first line is the number of vertices in graph ($|V|$), while the second line is the number of the edges ($|E|$).
+The first line is the number of vertices in graph (|V|), while the second line is the number of the edges (|E|).
 
-In the following lines, each line represents a directed edge from $u$ to $v$, separated by a comma ",". Note that vertex ids range from $0$ to $|V|-1$, and edge ids range from 0 to $|E|-1$. For example, the third line is for edge $0 \rightarrow 4$, whose edge id is $0$.
+In the following lines, each line represents a directed edge from u to v, separated by a comma ",". Note that vertex ids range from 0 to |V|-1, and edge ids range from 0 to |E|-1. For example, the third line is for edge 0 \rightarrow 4, whose edge id is 0.
 
-
+<br/>
 
 ## 2 Generate Queries
 
@@ -37,10 +38,10 @@ Usage of query generation program in `Datasets/GenQuery/`:
 ```
 
 - Graph File: input graph filename in  `Datasets/`
-- Max length: the upper bound of query hop constraint $k$, i.e., $k \in [3, Max Length]$
-- Number of queries: the number of random queries generated for each $k$
+- Max length: the upper bound of query hop constraint k, i.e., k \in [3, Max Length]
+- Number of queries: the number of random queries generated for each k
 
-For example, we can generate $10$ random queries for each $k \in [3,8]$ with the following commands:
+For example, we can generate 10 random queries for each k \in [3,8] with the following commands:
 
 ```shell
 cd Datasets/GenQuery/
@@ -53,7 +54,7 @@ cd ../..
 
 After executions, generated query files are stored as  `Datasets/{Graph Filename}_{k}.query`.
 
-
+<br/>
 
 ## 3 Execute EVE Method
 
@@ -65,7 +66,7 @@ Usage of EVE main program in `EVE/`:
 
 - Graph File: input graph filename in  `Datasets/`
 - Query file: input query filename in  `Datasets/`
-- Hop Constraint k: Hop constraint $k$ for the input query file
+- Hop Constraint k: Hop constraint k for the input query file
 
 ```shell
 cd EVE/

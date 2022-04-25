@@ -1,5 +1,5 @@
 /*
-Essential Nodes Intersaction - head file
+Essential Vertices based Examination - head file
 Author: Yuzheng Cai
 2022-02-27
 ------------------------------
@@ -70,7 +70,7 @@ class EVE {
         EdgeID *results, resultEnd;                                                         // results of edge ids, length=EN
         short edgeLabeling(EdgeID& edgeId);                                                 // intersact for each candidate edge, return 1 if candidates, 2 if in result
 
-        // Out 2-hop Nodes (O2N) and In 2-hop Nodes (I2N)
+        // departures and arrivals
         VertexID *InD, *OutA, *departures, departuresEnd, *arrivals, arrivalsEnd;
 
         // verify undetermined edges

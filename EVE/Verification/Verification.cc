@@ -381,7 +381,7 @@ bool Verification::forwardSearch(VertexID& u) {
             if (useSearchOrderingStrategy && curPathEnd+1+backwardDist[v]+1>maxLen-4)
                 break;
 
-            // if next node not in stack
+            // if next vertex not in stack
             if (inStack[v]==false) {
                 EdgeID& edgeId = prunedOutNeighbors[outEdgeLocation].edgeId; 
                 curPath[curPathEnd] = edgeId;
@@ -422,7 +422,7 @@ bool Verification::backwardFinalSearch(VertexID& u) {
             if (useSearchOrderingStrategy && curPathEnd+1+forwardDist[v]>maxLen-4)
                 break;
             
-            // if next node not in stack
+            // if next vertex not in stack
             if (inStack[v]==false) {
                 EdgeID& edgeId = prunedInNeighbors[inEdgeLocation].edgeId; 
                 curPath[curPathEnd] = edgeId;
@@ -463,7 +463,7 @@ bool Verification::backwardSearch(VertexID& u) {
             if (useSearchOrderingStrategy && curPathEnd+1+forwardDist[v]+1>maxLen-4)
                 break;
             
-            // if next node not in stack
+            // if next vertex not in stack
             if (inStack[v]==false) {
                 EdgeID& edgeId = prunedInNeighbors[inEdgeLocation].edgeId; 
                 curPath[curPathEnd] = edgeId;
@@ -504,7 +504,7 @@ bool Verification::forwardFinalSearch(VertexID& u) {
             if (useSearchOrderingStrategy && curPathEnd+1+backwardDist[v]>maxLen-4)
                 break;
 
-            // if next node not in stack
+            // if next vertex not in stack
             if (inStack[v]==false) {
                 EdgeID& edgeId = prunedOutNeighbors[outEdgeLocation].edgeId; 
                 curPath[curPathEnd] = edgeId;

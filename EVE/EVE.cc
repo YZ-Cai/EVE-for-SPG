@@ -1,5 +1,5 @@
 /*
-Essential Nodes Intersaction - implementations
+Essential Vertices based Examination - implementations
 Author: Yuzheng Cai
 2022-02-27
 ------------------------------
