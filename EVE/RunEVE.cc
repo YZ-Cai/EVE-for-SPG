@@ -1,6 +1,5 @@
 /*
 Run Essential Vertices based Examination
-Author: Yuzheng Cai
 2022-01-12
 ------------------------------
 C++ 11 

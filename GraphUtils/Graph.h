@@ -1,6 +1,5 @@
 /*
 GraphUtils - head file
-Author: Yuzheng Cai
 2021-09-21
 ------------------------------
 C++ 11 

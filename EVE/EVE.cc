@@ -1,6 +1,5 @@
 /*
 Essential Vertices based Examination - implementations
-Author: Yuzheng Cai
 2022-02-27
 ------------------------------
 C++ 11 
@@ -796,7 +795,7 @@ void EVE::backwardPropagation() {
     // initialization
     backwardFrontierEnd = 0;
 
-    // iterate each in edge v->s
+    // iterate each in edge v->t
     PerNeighbor* inNeighborsStart = inNeighbors+inNeighborsLocator[t];
     PerNeighbor* inNeighborsEnd = inNeighbors+inNeighborsLocator[t+1];
     if (inNeighborsEnd>inNeighborsStart && inNeighborsStart->neighbor<forwardMinId)

@@ -1,6 +1,5 @@
 /*
 Verifying Undetermined Edges - head file
-Author: Yuzheng Cai
 2022-03-01
 ------------------------------
 C++ 11 

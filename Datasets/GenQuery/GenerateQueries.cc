@@ -1,6 +1,5 @@
 /*
 Generate Reachable Queries for different k
-Author: Yuzheng Cai
 2022-03-18
 ------------------------------
 C++ 11 

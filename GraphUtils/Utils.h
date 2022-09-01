@@ -1,6 +1,5 @@
 /*
 GraphUtils - basic utils
-Author: Yuzheng Cai
 2021-09-21
 ------------------------------
 C++ 11 

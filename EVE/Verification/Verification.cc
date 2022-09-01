@@ -1,6 +1,5 @@
 /*
 Verifying Undetermined Edges - implementations
-Author: Yuzheng Cai
 2022-03-01
 ------------------------------
 C++ 11 

@@ -1,6 +1,5 @@
 /*
 Essential Vertices based Examination - head file
-Author: Yuzheng Cai
 2022-02-27
 ------------------------------
 C++ 11 
