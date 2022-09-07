@@ -1,10 +1,3 @@
-/*
-Essential Vertices based Examination - implementations
-2022-02-27
-------------------------------
-C++ 11 
-*/ 
-
 #ifndef EVE_CC
 #define EVE_CC
 #include "EVE.h"

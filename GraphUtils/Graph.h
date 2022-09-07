@@ -1,10 +1,3 @@
-/*
-GraphUtils - head file
-2021-09-21
-------------------------------
-C++ 11 
-*/ 
-
 #ifndef GRAPH_H
 #define GRAPH_H
 #include "Utils.h"

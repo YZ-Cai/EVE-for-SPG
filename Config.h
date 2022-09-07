@@ -1,10 +1,3 @@
-/*
-Configurations for Simple Path Graph Generation
-2021-09-21
-------------------------------
-C++ 11 
-*/ 
-
 #ifndef CONFIG_H
 #define CONFIG_H
 #include<string>

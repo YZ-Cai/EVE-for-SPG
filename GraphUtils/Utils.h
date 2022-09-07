@@ -1,11 +1,3 @@
-/*
-GraphUtils - basic utils
-2021-09-21
-------------------------------
-C++ 11 
-*/ 
-
-
 #ifndef UTILS_H
 #define UTILS_H
 

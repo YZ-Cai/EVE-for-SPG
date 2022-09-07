@@ -1,10 +1,3 @@
-/*
-GraphUtils - implementations
-2021-09-21
-------------------------------
-C++ 11 
-*/ 
-
 #ifndef GRAPH_CC
 #define GRAPH_CC
 #include "Graph.h"

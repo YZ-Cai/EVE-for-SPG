@@ -1,10 +1,3 @@
-/*
-Essential Vertices based Examination - head file
-2022-02-27
-------------------------------
-C++ 11 
-*/ 
-
 #ifndef EVE_H
 #define EVE_H
 #include "../GraphUtils/Graph.cc"

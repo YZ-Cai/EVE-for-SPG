@@ -1,10 +1,3 @@
-/*
-Verifying Undetermined Edges - head file
-2022-03-01
-------------------------------
-C++ 11 
-*/ 
-
 #ifndef VERIFICATION_H
 #define VERIFICATION_H
 #include "../../GraphUtils/Graph.cc"

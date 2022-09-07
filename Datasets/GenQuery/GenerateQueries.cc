@@ -1,10 +1,3 @@
-/*
-Generate Reachable Queries for different k
-2022-03-18
-------------------------------
-C++ 11 
-*/ 
-
 #include "../../GraphUtils/Graph.cc"
 #include<cstdlib>
 using namespace std;

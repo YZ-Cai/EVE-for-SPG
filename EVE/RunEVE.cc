@@ -1,10 +1,3 @@
-/*
-Run Essential Vertices based Examination
-2022-01-12
-------------------------------
-C++ 11 
-*/ 
-
 #include "EVE.cc"
 using namespace std;
 

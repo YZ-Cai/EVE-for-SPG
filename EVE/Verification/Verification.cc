@@ -1,10 +1,3 @@
-/*
-Verifying Undetermined Edges - implementations
-2022-03-01
-------------------------------
-C++ 11 
-*/ 
-
 #ifndef VERIFICATION_CC
 #define VERIFICATION_CC
 #include "Verification.h"
