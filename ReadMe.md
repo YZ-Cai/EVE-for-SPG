@@ -2,7 +2,11 @@
 
 
 
-This is the source codes of **EVE (<u>E</u>ssential <u>V</u>ertices based <u>E</u>xamination)** method for hop-constrained s-t simple path graph (SPG) generation. To run the codes, please read the following instructions.
+This is the source codes of **EVE (<u>E</u>ssential <u>V</u>ertices based <u>E</u>xamination)** method for hop-constrained s-t simple path graph (SPG) generation. Link of the paper:
+
+[Towards Generating Hop-constrained s-t Simple Path Graphs](https://doi.org/10.1145/3588915)
+
+To run the codes, please read the following instructions.
 
 <br/>
 
@@ -103,5 +107,10 @@ string answerPath = "Results/Answers/";
 string statisticsPath = "Results/Statistics/";
 ```
 
+<br/>
 
+## 4 Notes
 
+In this version, we pre-allocate spaces for processing all queries efficiently. Thus, the memory consumed is larger than the actual space needed for a query. The actual space cost has been calculated in the output statistic file `Results/Statistics/{Query Filename}-{k}.csv`.
+
+Please cite our paper [Towards Generating Hop-constrained s-t Simple Path Graphs](https://doi.org/10.1145/3588915) if you use these codes.
